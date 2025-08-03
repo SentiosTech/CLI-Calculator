@@ -1,0 +1,11 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+*.pyc
+
+# VSCode or other editor settings (optional)
+.vscode/
+.idea/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
