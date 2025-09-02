@@ -1,11 +1,27 @@
-# Ignore Python virtual environments
+# Entornos virtuales
 venv/
+env/
+.venv/
+
+# Archivos de Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# VSCode or other editor settings (optional)
+# Configuración de IDE
 .vscode/
 .idea/
 
-# Byte-compiled / optimized / DLL files
-*.py[cod]
+# Logs y datos
+*.log
+*.sqlite3
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Distribuciones
+dist/
+build/
+*.egg-info/
