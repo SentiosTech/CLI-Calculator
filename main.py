@@ -5,7 +5,7 @@ Punto de entrada principal de la aplicación Calculadora.
 Este módulo solo se encarga de iniciar la aplicación.
 """
 
-from cli.ui import CalculatorUI
+from src.ui import CalculatorUI
 
 def main():
     """Función principal que inicia la calculadora."""

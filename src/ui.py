@@ -2,7 +2,7 @@
 """
 Calculadora básica en consola implementada con principios sólidos de POO.
 """
-from cli.calculator import Calculator
+from src.calculator import Calculator
 
 class CalculatorUI:
     """
